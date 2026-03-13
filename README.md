@@ -1,16 +1,29 @@
-# neverforget
+# NeverForget — Glassmorphic Special Day Reminder
 
-A new Flutter project.
+NeverForget is a high-performance, aesthetically pleasing Android application built with Flutter. It helps users track birthdays, anniversaries, and custom events using a "frosted glass" design language and reliable exact-alarm notifications.
 
-## Getting Started
+## ✨ Features
+* **Glassmorphic UI:** A modern, translucent interface with mesh gradients and staggered animations.
+* **Intelligent Notifications:** User-defined alert times with a mandatory 3-day countdown lead-up.
+* **Offline-First:** Powered by Isar NoSQL database for lightning-fast, local data persistence.
+* **Custom Categories:** Pre-defined categories (Birthdays, Anniversaries) plus user-created custom types.
+* **Interactive Alarms:** Day-of-event notifications include "Snooze" and "Acknowledge" actions.
 
-This project is a starting point for a Flutter application.
+## 🛠️ Tech Stack
+* **Framework:** Flutter (Min SDK 21)
+* **Database:** Isar DB
+* **State Management:** Provider
+* **Notifications:** flutter_local_notifications (Timezone-aware)
+* **Animations:** flutter_staggered_animations
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Getting Started
+1. Clone the repo: `git clone https://github.com/shad-ct/neverforget.git`
+2. Install dependencies: `flutter pub get`
+3. Generate DB code: `dart run build_runner build`
+4. Run the app: `flutter run`
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📸 Design Language
+The app follows strict Glassmorphism principles:
+- Backdrop Filter Blur: 10.0–15.0
+- Border Opacity: 0.2 white
+- Primary Font: Poppins / Montserrat

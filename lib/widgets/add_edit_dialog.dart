@@ -84,21 +84,14 @@ class _AddEditDialogState extends State<AddEditDialog> {
         alignment: Alignment.topCenter,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(24),
-          gradient: LinearGradient(
-            begin: Alignment.topLeft,
-            end: Alignment.bottomRight,
-            colors: [
-              Colors.white.withValues(alpha: 0.12),
-              Colors.white.withValues(alpha: 0.04),
-            ],
-          ),
+          color: AppTheme.surfaceDark,
           border: Border.all(
             color: AppTheme.accentPurple.withValues(alpha: 0.4),
             width: 1.5,
           ),
           boxShadow: [
             BoxShadow(
-              color: Colors.black.withValues(alpha: 0.2),
+              color: Colors.black.withValues(alpha: 0.5),
               blurRadius: 20,
               offset: const Offset(0, 4),
             )

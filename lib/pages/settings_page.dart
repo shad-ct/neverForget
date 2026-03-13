@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:glassmorphism/glassmorphism.dart';
 import 'package:provider/provider.dart';
 
 import '../providers/reminder_provider.dart';
-import '../services/notification_service.dart';
 import '../services/settings_service.dart';
 import '../theme/app_theme.dart';
 import '../widgets/mesh_gradient_background.dart';
@@ -58,27 +56,30 @@ class _SettingsPageState extends State<SettingsPage> {
                       const SizedBox(height: 12),
 
                       // Notification Time Card
-                      GlassmorphicContainer(
+                      Container(
                         width: double.infinity,
                         height: 160,
-                        borderRadius: 20,
-                        blur: 15,
                         alignment: Alignment.center,
-                        border: 1.5,
-                        linearGradient: LinearGradient(
-                          begin: Alignment.topLeft,
-                          end: Alignment.bottomRight,
-                          colors: [
-                            Colors.white.withValues(alpha: 0.08),
-                            Colors.white.withValues(alpha: 0.03),
-                          ],
-                        ),
-                        borderGradient: LinearGradient(
-                          begin: Alignment.topLeft,
-                          end: Alignment.bottomRight,
-                          colors: [
-                            AppTheme.accentPurple.withValues(alpha: 0.4),
-                            AppTheme.accentCyan.withValues(alpha: 0.2),
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(20),
+                          gradient: LinearGradient(
+                            begin: Alignment.topLeft,
+                            end: Alignment.bottomRight,
+                            colors: [
+                              Colors.white.withValues(alpha: 0.12),
+                              Colors.white.withValues(alpha: 0.04),
+                            ],
+                          ),
+                          border: Border.all(
+                            color: AppTheme.accentPurple.withValues(alpha: 0.4),
+                            width: 1.5,
+                          ),
+                          boxShadow: [
+                            BoxShadow(
+                              color: Colors.black.withValues(alpha: 0.1),
+                              blurRadius: 10,
+                              offset: const Offset(0, 4),
+                            )
                           ],
                         ),
                         child: Padding(
@@ -166,26 +167,24 @@ class _SettingsPageState extends State<SettingsPage> {
                       const SizedBox(height: 24),
 
                       // Info text
-                      GlassmorphicContainer(
+                      Container(
                         width: double.infinity,
                         height: 100,
-                        borderRadius: 20,
-                        blur: 12,
                         alignment: Alignment.center,
-                        border: 1,
-                        linearGradient: LinearGradient(
-                          begin: Alignment.topLeft,
-                          end: Alignment.bottomRight,
-                          colors: [
-                            Colors.white.withValues(alpha: 0.05),
-                            Colors.white.withValues(alpha: 0.02),
-                          ],
-                        ),
-                        borderGradient: LinearGradient(
-                          colors: [
-                            Colors.white.withValues(alpha: 0.15),
-                            Colors.white.withValues(alpha: 0.05),
-                          ],
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(20),
+                          gradient: LinearGradient(
+                            begin: Alignment.topLeft,
+                            end: Alignment.bottomRight,
+                            colors: [
+                              Colors.white.withValues(alpha: 0.08),
+                              Colors.white.withValues(alpha: 0.02),
+                            ],
+                          ),
+                          border: Border.all(
+                            color: Colors.white.withValues(alpha: 0.15),
+                            width: 1,
+                          ),
                         ),
                         child: const Padding(
                           padding: EdgeInsets.all(16),
@@ -207,55 +206,6 @@ class _SettingsPageState extends State<SettingsPage> {
                         ),
                       ),
 
-                      const SizedBox(height: 24),
-
-                      // Test notification button
-                      GestureDetector(
-                        onTap: () async {
-                          await NotificationService.instance.sendTestNotification();
-                          if (mounted) {
-                            ScaffoldMessenger.of(context).showSnackBar(
-                              const SnackBar(
-                                content: Text('Test notification sent! Check your notification shade.'),
-                                backgroundColor: AppTheme.surfaceDark,
-                              ),
-                            );
-                          }
-                        },
-                        child: GlassmorphicContainer(
-                          width: double.infinity,
-                          height: 64,
-                          borderRadius: 20,
-                          blur: 12,
-                          alignment: Alignment.center,
-                          border: 1.5,
-                          linearGradient: LinearGradient(
-                            begin: Alignment.topLeft,
-                            end: Alignment.bottomRight,
-                            colors: [
-                              AppTheme.accentCyan.withValues(alpha: 0.12),
-                              AppTheme.accentCyan.withValues(alpha: 0.04),
-                            ],
-                          ),
-                          borderGradient: LinearGradient(
-                            colors: [
-                              AppTheme.accentCyan.withValues(alpha: 0.5),
-                              AppTheme.accentCyan.withValues(alpha: 0.15),
-                            ],
-                          ),
-                          child: const Row(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: [
-                              Icon(Icons.notifications_active, color: AppTheme.accentCyan, size: 22),
-                              SizedBox(width: 10),
-                              Text(
-                                'Send Test Notification',
-                                style: AppTheme.bodyLarge,
-                              ),
-                            ],
-                          ),
-                        ),
-                      ),
                     ],
                   ),
                 ),
