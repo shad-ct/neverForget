@@ -1,534 +1,92 @@
 [
-    {
-        "id": 1,
-        "name": "Thanseer",
-        "dob": "30/09/2006",
-        "contact": "8086521351",
-        "address": null
-    },
-    {
-        "id": 2,
-        "name": "Drupath VP",
-        "dob": "21/08/2006",
-        "contact": "6282357344",
-        "address": "veluppal, cherunjal, kunnamangalam, 673571 kozhikode kerala"
-    },
-    {
-        "id": 3,
-        "name": "Fathi Nafees",
-        "dob": "04/07/2006",
-        "contact": "9048720980",
-        "address": null
-    },
-    {
-        "id": 4,
-        "name": "NAVEEN SURESAN A",
-        "dob": "17/02/2006",
-        "contact": null,
-        "address": null
-    },
-    {
-        "id": 5,
-        "name": "Muhammad Sahal. M",
-        "dob": "07/01/2006",
-        "contact": null,
-        "address": null
-    },
-    {
-        "id": 6,
-        "name": "Devika Sasang",
-        "dob": "01/01/2007",
-        "contact": "8921180054",
-        "address": "KV House near GGHSS, Cherukunnu"
-    },
-    {
-        "id": 7,
-        "name": "Munu Birthday",
-        "dob": "17/08/2006",
-        "contact": null,
-        "address": null
-    },
-    {
-        "id": 8,
-        "name": "Safwan, Jaseel's friend",
-        "dob": "29/01/2006",
-        "contact": null,
-        "address": null
-    },
-    {
-        "id": 9,
-        "name": "Shaza Jabbar",
-        "dob": "24/06/2006",
-        "contact": null,
-        "address": null
-    },
-    {
-        "id": 10,
-        "name": "Devika Sasangan",
-        "dob": "01/01/2006",
-        "contact": null,
-        "address": null
-    },
-    {
-        "id": 11,
-        "name": "Shahid",
-        "dob": "04/08/2006",
-        "contact": "7736770256",
-        "address": null
-    },
-    {
-        "id": 12,
-        "name": "Dexter / Shibhin Balan",
-        "dob": "21/11/2006",
-        "contact": "7034487011",
-        "address": null
-    },
-    {
-        "id": 13,
-        "name": "Zakariya KT",
-        "dob": "16/09/2006",
-        "contact": "9633861046",
-        "address": null
-    },
-    {
-        "id": 14,
-        "name": "Abdul Basith PP",
-        "dob": "11/02/2006",
-        "contact": "9207495422",
-        "address": null
-    },
-    {
-        "id": 15,
-        "name": "Raihan's Birthday (ex classmate)",
-        "dob": "04/03/2006",
-        "contact": "9544232926",
-        "address": null
-    },
-    {
-        "id": 16,
-        "name": "Sahad",
-        "dob": "14/12/2006",
-        "contact": null,
-        "address": null
-    },
-    {
-        "id": 17,
-        "name": "Mohamed lamih MV",
-        "dob": "05/02/2006",
-        "contact": "8593044064",
-        "address": "mayinkara valappu , mattool, 670302,"
-    },
-    {
-        "id": 18,
-        "name": "Muhammed Juhail k",
-        "dob": "05/10/2006",
-        "contact": null,
-        "address": null
-    },
-    {
-        "id": 19,
-        "name": "Nandha Kishore. K",
-        "dob": "26/06/2006",
-        "contact": null,
-        "address": null
-    },
-    {
-        "id": 20,
-        "name": "Zayn Aman",
-        "dob": "14/06/2006",
-        "contact": "9447667194",
-        "address": null
-    },
-    {
-        "id": 21,
-        "name": "Sreehari A.E",
-        "dob": "29/07/2006",
-        "contact": null,
-        "address": null
-    },
-    {
-        "id": 22,
-        "name": "Shazin CT",
-        "dob": "12/03/2011",
-        "contact": null,
-        "address": null
-    },
-    {
-        "id": 23,
-        "name": "Anupriya",
-        "dob": "27/12/2005",
-        "contact": "9746417023",
-        "address": "Anupriya Nivas, Ayyoth, PO Cherukunnu, 670301"
-    },
-    {
-        "id": 24,
-        "name": "Rohith V nair",
-        "dob": "09/05/2005",
-        "contact": null,
-        "address": null
-    },
-    {
-        "id": 25,
-        "name": "Ammar - Aymi",
-        "dob": "30/08/2021",
-        "contact": null,
-        "address": null
-    },
-    {
-        "id": 26,
-        "name": "DEVIKA SURENDRAN",
-        "dob": "01/01/2006",
-        "contact": null,
-        "address": null
-    },
-    {
-        "id": 27,
-        "name": "SREEDEEP PRADEEP",
-        "dob": "28/03/2007",
-        "contact": null,
-        "address": null
-    },
-    {
-        "id": 28,
-        "name": "Shameer KP (2022 - 51) (1971)",
-        "dob": "15/10/1971",
-        "contact": null,
-        "address": null
-    },
-    {
-        "id": 29,
-        "name": "Arshida",
-        "dob": "29/12/2006",
-        "contact": "9526854576",
-        "address": "CP House, Madakkara, CH Road near Chammenkandi"
-    },
-    {
-        "id": 30,
-        "name": "Fayhaa Fathima AV",
-        "dob": "11/04/2006",
-        "contact": "8590212045",
-        "address": "Nabaa, kidarankunnu, new mahe , thalassery-2. po kurichiyil 670102"
-    },
-    {
-        "id": 31,
-        "name": "Fathimath Sherin BT",
-        "dob": "23/02/2006",
-        "contact": null,
-        "address": null
-    },
-    {
-        "id": 32,
-        "name": "Arathi KM (ex KUC)",
-        "dob": "16/07/2006",
-        "contact": null,
-        "address": null
-    },
-    {
-        "id": 33,
-        "name": "Shifa Hanna Muhammed Iqbal",
-        "dob": "01/12/2006",
-        "contact": null,
-        "address": null
-    },
-    {
-        "id": 34,
-        "name": "Uppa, Shameer KP",
-        "dob": "11/04/2006",
-        "contact": "9895315515",
-        "address": null
-    },
-    {
-        "id": 35,
-        "name": "Mizwa passed away",
-        "dob": "14/08/2023",
-        "contact": null,
-        "address": null
-    },
-    {
-        "id": 36,
-        "name": "Adil VRO",
-        "dob": "12/02/2003",
-        "contact": "9207332508",
-        "address": "670302"
-    },
-    {
-        "id": 37,
-        "name": "Jaz",
-        "dob": "22/07/2006",
-        "contact": "8547361538",
-        "address": null
-    },
-    {
-        "id": 38,
-        "name": "MUHAMMED SHAD CT",
-        "dob": "14/11/2005",
-        "contact": null,
-        "address": null
-    },
-    {
-        "id": 39,
-        "name": "DEVIKA V",
-        "dob": "14/10/2006",
-        "contact": null,
-        "address": null
-    },
-    {
-        "id": 40,
-        "name": "Munu Wedding anniversary",
-        "dob": "14/08/2006",
-        "contact": null,
-        "address": null
-    },
-    {
-        "id": 41,
-        "name": "Mommy",
-        "dob": "03/11/2006",
-        "contact": null,
-        "address": null
-    },
-    {
-        "id": 42,
-        "name": "Abhinav MV",
-        "dob": "10/09/2006",
-        "contact": "7025481305",
-        "address": "Kovvapuram, Cherukunnu, Kannur, 670301"
-    },
-    {
-        "id": 43,
-        "name": "Fayaz | Faraz AK",
-        "dob": "15/07/2006",
-        "contact": "9961677600",
-        "address": "AK House, Punchavayal PO, Mottammal, 670331"
-    },
-    {
-        "id": 44,
-        "name": "Safvan Mp",
-        "dob": "20/11/2003",
-        "contact": null,
-        "address": null
-    },
-    {
-        "id": 45,
-        "name": "Razi Abdul Nasar",
-        "dob": "29/08/2006",
-        "contact": "9744505068",
-        "address": null
-    },
-    {
-        "id": 46,
-        "name": "Sinan OP",
-        "dob": "28/03/2006",
-        "contact": "7510934691",
-        "address": null
-    },
-    {
-        "id": 47,
-        "name": "Rihan",
-        "dob": "08/03/2006",
-        "contact": "9995214042",
-        "address": null
-    },
-    {
-        "id": 48,
-        "name": "Sreenanda E",
-        "dob": "15/01/2007",
-        "contact": null,
-        "address": null
-    },
-    {
-        "id": 49,
-        "name": "Jaseel",
-        "dob": "08/12/2006",
-        "contact": "9995238138",
-        "address": null
-    },
-    {
-        "id": 50,
-        "name": "Riza Salam",
-        "dob": "01/04/2006",
-        "contact": "8129229449",
-        "address": "VV House near NMUP School, Str. No. 10, Mattul North, Kannur, Kerala, 670325"
-    },
-    {
-        "id": 51,
-        "name": "Vismaya v v",
-        "dob": "21/02/2006",
-        "contact": null,
-        "address": null
-    },
-    {
-        "id": 52,
-        "name": "Adnan",
-        "dob": "17/12/2006",
-        "contact": "8089937360",
-        "address": null
-    },
-    {
-        "id": 53,
-        "name": "Abhishek Sukumaran K",
-        "dob": "07/06/2006",
-        "contact": "6282363664",
-        "address": "Karayappath House, Convent Road, PO Cherukunnu, 670301"
-    },
-    {
-        "id": 54,
-        "name": "Arjun K",
-        "dob": "09/02/2007",
-        "contact": null,
-        "address": null
-    },
-    {
-        "id": 55,
-        "name": "Abhijith",
-        "dob": "15/07/2006",
-        "contact": null,
-        "address": null
-    },
-    {
-        "id": 56,
-        "name": "Mohammed Fawaz (ex classmate)",
-        "dob": "20/05/2006",
-        "contact": "7025170670",
-        "address": null
-    },
-    {
-        "id": 57,
-        "name": "Nikhil",
-        "dob": "13/04/2006",
-        "contact": "8089822180",
-        "address": null
-    },
-    {
-        "id": 58,
-        "name": "Aymi",
-        "dob": "12/11/2006",
-        "contact": null,
-        "address": null
-    },
-    {
-        "id": 59,
-        "name": "Sreeraj.c",
-        "dob": "27/07/2006",
-        "contact": null,
-        "address": null
-    },
-    {
-        "id": 60,
-        "name": "VISHNU L",
-        "dob": "05/07/2006",
-        "contact": null,
-        "address": null
-    },
-    {
-        "id": 61,
-        "name": "Salha",
-        "dob": "21/07/2006",
-        "contact": "6238657356",
-        "address": "Haseenas Convent Road, PO Cherukunnu"
-    },
-    {
-        "id": 62,
-        "name": "Achyuth Prathap",
-        "dob": "01/09/2006",
-        "contact": null,
-        "address": null
-    },
-    {
-        "id": 63,
-        "name": "Nafih",
-        "dob": "23/10/2006",
-        "contact": null,
-        "address": null
-    },
-    {
-        "id": 64,
-        "name": "Shazin Muhammed Shafi",
-        "dob": "24/12/2006",
-        "contact": null,
-        "address": null
-    },
-    {
-        "id": 65,
-        "name": "Hamdan",
-        "dob": "09/03/2006",
-        "contact": "7012387909",
-        "address": null
-    },
-    {
-        "id": 66,
-        "name": "Big bro",
-        "dob": "19/01/2006",
-        "contact": null,
-        "address": null
-    },
-    {
-        "id": 67,
-        "name": "Razal!",
-        "dob": "16/05/2006",
-        "contact": "9995214042",
-        "address": null
-    },
-    {
-        "id": 68,
-        "name": "FATHIMATHUL FADIYA A",
-        "dob": "01/09/2006",
-        "contact": "6282910213",
-        "address": "al fajar, ponnambeth house, kanacheri PO eachur 670591"
-    },
-    {
-        "id": 69,
-        "name": "Nandana RK",
-        "dob": "28/09/2005",
-        "contact": null,
-        "address": null
-    },
-    {
-        "id": 70,
-        "name": "Parents wedding anniversary",
-        "dob": "09/11/2006",
-        "contact": null,
-        "address": null
-    },
-    {
-        "id": 71,
-        "name": "Devang Rajeev",
-        "dob": "11/06/2006",
-        "contact": null,
-        "address": null
-    },
-    {
-        "id": 72,
-        "name": "Haqi",
-        "dob": "03/12/2006",
-        "contact": null,
-        "address": null
-    },
-    {
-        "id": 73,
-        "name": "Sajna",
-        "dob": "13/01/2007",
-        "contact": "8075699942",
-        "address": "Puthiyangadi Beachroad, Bapooti Corner near Arafa Center"
-    },
-    {
-        "id": 74,
-        "name": "Havana A",
-        "dob": "15/09/2006",
-        "contact": null,
-        "address": null
-    },
-    {
-        "id": 75,
-        "name": "Basha",
-        "dob": "23/07/2006",
-        "contact": null,
-        "address": null
-    },
-    {
-        "id": 76,
-        "name": "Krishna",
-        "dob": "01/03/2006",
-        "contact": "9946718601",
-        "address": "Swum, Chembalikundu PO, Vengara"
-    }
+  {
+    "id": 77,
+    "name": "Sarah Jenkins",
+    "dob": "15/03/1995",
+    "contact": "9845011223",
+    "category": "Birthday",
+    "emoji": "🎂",
+    "address": "Green Valley, Block C, Apt 402"
+  },
+  {
+    "id": 78,
+    "name": "Wedding Anniversary",
+    "dob": "22/06/2018",
+    "contact": null,
+    "category": "Anniversary",
+    "emoji": "💍",
+    "address": null
+  },
+  {
+    "id": 79,
+    "name": "Project Deadline: Phoenix",
+    "dob": "10/04/2026",
+    "contact": null,
+    "category": "Work",
+    "emoji": "🚀",
+    "address": "Silicon Square, Office 12"
+  },
+  {
+    "id": 80,
+    "name": "Liam O'Connor",
+    "dob": "05/11/2000",
+    "contact": "7766554433",
+    "category": "Birthday",
+    "emoji": "🎈",
+    "address": null
+  },
+  {
+    "id": 81,
+    "name": "First Date Anniversary",
+    "dob": "14/02/2022",
+    "contact": null,
+    "category": "Custom",
+    "emoji": "❤️",
+    "address": "Blue Moon Cafe, Downtown"
+  },
+  {
+    "id": 82,
+    "name": "Mom's Retirement",
+    "dob": "30/09/1962",
+    "contact": "9000112233",
+    "category": "Special Day",
+    "emoji": "🥂",
+    "address": "Sunset Boulevard, House 9"
+  },
+  {
+    "id": 83,
+    "name": "Gym Membership Renewal",
+    "dob": "01/01/2025",
+    "contact": null,
+    "category": "Reminder",
+    "emoji": "💪",
+    "address": "Iron Palace Gym"
+  },
+  {
+    "id": 84,
+    "name": "Oliver Queen",
+    "dob": "16/05/1985",
+    "contact": "8899001122",
+    "category": "Birthday",
+    "emoji": "🏹",
+    "address": "Star City, Queen Mansion"
+  },
+  {
+    "id": 85,
+    "name": "Car Insurance Due",
+    "dob": "19/12/2026",
+    "contact": null,
+    "category": "Finance",
+    "emoji": "🚗",
+    "address": null
+  },
+  {
+    "id": 86,
+    "name": "Grandpa's 80th",
+    "dob": "03/07/1946",
+    "contact": null,
+    "category": "Birthday",
+    "emoji": "👴",
+    "address": "Heritage Home, North Wing"
+  }
 ]
